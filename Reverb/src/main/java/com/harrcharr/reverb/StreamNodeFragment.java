@@ -21,8 +21,6 @@
  ******************************************************************************/
 package com.harrcharr.reverb;
 
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -41,6 +39,8 @@ import com.harrcharr.reverb.pulseutil.HasPulseManager;
 import com.harrcharr.reverb.pulseutil.PulseConnectionListener;
 import com.harrcharr.reverb.pulseutil.PulseManager;
 import com.harrcharr.reverb.widgets.StreamNodeView;
+
+import java.util.ArrayList;
 
 public abstract class StreamNodeFragment<T extends StreamNode> extends SherlockFragment
 implements PulseConnectionListener, HasPulseManager, SharedPreferences.OnSharedPreferenceChangeListener {

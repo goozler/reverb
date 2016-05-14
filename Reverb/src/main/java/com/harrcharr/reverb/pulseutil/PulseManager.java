@@ -1,9 +1,5 @@
 package com.harrcharr.reverb.pulseutil;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 import android.util.Log;
 import android.util.SparseArray;
 
@@ -19,6 +15,10 @@ import com.harrcharr.pulse.SourceInfoCallback;
 import com.harrcharr.pulse.SourceOutput;
 import com.harrcharr.pulse.SourceOutputInfoCallback;
 import com.harrcharr.pulse.SubscriptionCallback;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author harrcharr

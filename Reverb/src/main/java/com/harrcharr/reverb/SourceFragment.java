@@ -2,7 +2,6 @@ package com.harrcharr.reverb;
 
 import android.util.SparseArray;
 
-import com.harrcharr.pulse.SinkInfo;
 import com.harrcharr.pulse.SourceInfo;
 import com.harrcharr.reverb.pulseutil.PulseManager;
 import com.harrcharr.reverb.pulseutil.SourceEventListener;

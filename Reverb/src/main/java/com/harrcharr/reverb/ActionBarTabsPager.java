@@ -16,9 +16,6 @@
  */
 package com.harrcharr.reverb;
 
-import java.util.ArrayList;
-import java.util.TreeMap;
-
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -30,6 +27,8 @@ import android.support.v4.view.ViewPager;
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.ActionBar.Tab;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
+
+import java.util.ArrayList;
 
 /**
  * Demonstrates combining the action bar with a ViewPager to implement a tab UI

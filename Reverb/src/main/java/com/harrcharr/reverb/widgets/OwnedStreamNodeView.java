@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import com.harrcharr.pulse.OwnedStreamNode;
 import com.harrcharr.pulse.OwnerStreamNode;
-import com.harrcharr.pulse.SuccessCallback;
 import com.harrcharr.reverb.R;
 
 public class OwnedStreamNodeView<Node extends OwnedStreamNode> extends StreamNodeView<Node>

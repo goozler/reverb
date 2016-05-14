@@ -21,8 +21,6 @@
  ******************************************************************************/
 package com.harrcharr.reverb;
 
-import java.util.ArrayList;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -44,6 +42,8 @@ import com.harrcharr.pulse.SinkInput;
 import com.harrcharr.reverb.pulseutil.HasPulseManager;
 import com.harrcharr.reverb.pulseutil.PulseConnectionListener;
 import com.harrcharr.reverb.pulseutil.PulseManager;
+
+import java.util.ArrayList;
 
 public class ReverbActivity extends ActionBarTabsPager
 implements HasPulseManager, PulseConnectionListener {	

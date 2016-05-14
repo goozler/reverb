@@ -21,8 +21,6 @@
  ******************************************************************************/
 package com.harrcharr.reverb.widgets;
 
-import java.util.ArrayList;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -43,6 +41,8 @@ import com.harrcharr.pulse.Volume;
 import com.harrcharr.reverb.R;
 import com.harrcharr.reverb.ReverbSharedPreferences;
 import com.harrcharr.reverb.widgets.SynchronizedSeekBar.OnTouchEventListener;
+
+import java.util.ArrayList;
 
 public abstract class StreamNodeView<Node extends StreamNode> extends RelativeLayout {
 	protected Node mNode;

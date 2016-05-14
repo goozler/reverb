@@ -1,6 +1,5 @@
 package com.harrcharr.reverb;
 
-import android.os.Bundle;
 import android.util.SparseArray;
 
 import com.harrcharr.pulse.SinkInput;

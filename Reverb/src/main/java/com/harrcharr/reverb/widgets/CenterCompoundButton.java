@@ -1,12 +1,9 @@
 package com.harrcharr.reverb.widgets;
 
-import com.actionbarsherlock.R;
-
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.Gravity;
 import android.widget.CompoundButton;
 
